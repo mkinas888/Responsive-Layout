@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    background-color: darkgrey;
+    margin: 0;
+
+}
+
+.parentElem {
+    display: flex;
+    max-width: 1500px;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+    flex-flow: row wrap;
+    background-color: burlywood;
+}
+
+.parentElem > .childElem {
+    flex: 1 300px;
+    min-width: 300px;
+    margin: 16px;
+    padding: 5px;
+}
+
+.childElem:nth-child(odd) {
+    border: 1px solid rgb(216, 134, 27);
+    background-color: burlywood;
+}
+
+.childElem:nth-child(even) {
+    border: 1px solid rgb(44, 211, 155);
+    background-color: aquamarine;
+}
