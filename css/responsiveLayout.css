@@ -1,8 +1,6 @@
 body {
     display: flex;
-    align-items: center;
     justify-content: space-around;
-    align-content: space-around;
     margin: 0;
     background-color: darkgrey;
 }
@@ -20,9 +18,6 @@ body {
     min-width: 300px;
     margin: 8px;
     padding: 5px;
-}
-
-.childElem:nth-child(odd) {
     border: 3px solid rgb(216, 134, 27);
     background-color: burlywood;
 }
